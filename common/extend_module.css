@@ -1,0 +1,108 @@
+/* ----------------------------------
+Discuz! X3.0 (C) 薇晓朵网络工作室
+http://www.weixiaoduo.com/
+----------------------------------*/
+
+/** forum::index **/
+#chart { margin: 0 0 0; }
+.fl .bm{ margin-bottom:10px; border:1px solid #DDD; background:#FFF;}
+.fl { border:0px; border-top:none; background:none;}
+.mn { margin-top:10px; }
+/** end **/
+
+/** forum::index,forum::forumdisplay,home::space,forum::guide **/
+
+/* 帖子列表 by Pony 1204051535 */
+.tl { border-radius: 0 0 0 0; }
+	.tl .bm_c { padding: 0; }
+	.tl th, .tl td { border-bottom-color: #E6E6E6; }
+	.tl tr:hover th, .tl tr:hover td { background: #F7F7F7; }
+	.bw0_all tr:hover th, .bw0_all tr:hover td { background: none; }
+	.tl .th { padding: 4px 15px; background:#F8FDE9; }
+	.tl tbody:last-child th, .tl tbody:last-child td { border-bottom: none; }
+#threadlist.addradius { border-radius: 0; }
+	.addradius .th { border-radius: 0 0 0 0; }
+
+	.tl .tf a { float: left; margin-right: 5px; padding: 4px 12px 3px; height: 18px; background-color:#D0EAFB; border-radius: 0; }
+		.tl .tf a.a { background-color:#2990e8; color: #FFF; }
+		.tl .tf a.a:hover { text-decoration: none; }
+		.tl .tf .showmenu { padding-right: 20px; background-image: url({STYLEIMGDIR}/arrwd.png); }
+		.forumrefresh { background-position: 50% 50%; }
+
+	.tl .xst, .newthread .new em, .newthread .new em a { font-family: {THREADTITLEFONT}; font-size: {THREADTITLEFONTSIZE} !important; }
+	.tl th img { margin-bottom: 5px; }
+	.tl .o { width: 30px; }
+	.tl .avt { vertical-align: top; padding: 10px 0; width: 80px; }
+		.tl .avt img { margin-left: 15px; }
+	.tl .by { padding-right: 15px; text-align: right; }
+
+	.emptb th, .emptb td { padding: 0 !important; }
+
+	.tl .tbmu { padding: 10px 15px; }
+	.tl .pgbtn { margin: 5px 15px 15px; }
+		.ie6 .tl .pgbtn, .ie7 .tl .pgbtn, .ie8 .tl .pgbtn { margin-top: 15px; }
+	.tl .waterfall { margin-left: 15px; }
+/** end **/
+
+
+/** forum::forumdisplay **/
+#atarget { margin: 7px 0 0 7px; }
+.imagemode, .txtmode { overflow: hidden; float: right; margin: 7px 0 0 7px; width: 16px; height: 16px; text-indent: -9999px; background: url({STYLEIMGDIR}/chk.png) no-repeat 0 -16px; outline: none; }
+.imagemode { background-position: -16px -16px; }
+	.ichked { background-position: -16px 0; }
+	.tchked { background-position: 0 0; }
+/** end **/
+
+/** forum::index,forum::forumdisplay,group::index,group::group,search::group **/
+/* 版块列表 */
+.fl {}
+	.fl_tb { width: 100%; }
+		.fl_tb td { padding: 10px 0; }
+		.fl_icn { padding-right: 10px !important; width:64px; }
+		.fl_by { width: 220px; }
+			.fl_by div { margin-left: 10px; width: 210px; padding-left: 8px; word-break: keep-all; word-wrap: normal; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+				.fl_by div .xi2 { zoom: 1; }
+			.fl_by cite { display: block; }
+		.fl_i { width: 150px; text-align: right; }
+			.fl_i em { display: block; width: 5em; }
+			.fl .i_z { margin-right: 8px; padding-right: 8px; border-right: 1px solid {CONTENTSEPARATE}; }
+	.fl_icn_g { float: left; width:64px; }
+	.fl_g { vertical-align: top; }
+		.fl_g dl { margin-left:64px; padding-left: 10px; }
+			.fl_g dt { font-weight: 700; }
+	.fl_row td { border-top: 1px dashed {COMMONBORDER}; }
+
+/** end **/
+
+/** forum::forumdisplay,forum::viewthread,group::viewthread,forum::guide **/
+/* 主题分类等 by Pony 1203311330 */
+.ttp {border-top: 1px solid #DEDEDE;border-left: 1px solid #DEDEDE; border-right: 1px solid #DEDEDE;margin-bottom: 0; padding: 7px 15px 0; background: {COMMONBG}; border-radius: 5px 5px 0 0; }
+	.cttp .unfold, .cttp .fold { margin-right: -5px; }
+	.ttp a, .ttp strong { border: none; background-color: transparent; border-radius: 0; }
+		.ttp a:hover { text-decoration: underline; }
+	.ttp .a a, .ttp .a a:hover { background-color: #E0E0E0; color: {TABLETEXT}; }
+		.ttp .a a:hover { text-decoration: none; }
+	.ttp .pipe { width: 1px; background-color: {COMMONBORDER}; }
+/** end **/
+
+
+/** forum::viewthread,group::viewthread,forum::trade,forum::misc **/
+/** end **/
+
+/** forum::forumdisplay,forum::guide **/
+/* 发帖按钮 by Pony 1204051611 */
+#pt { position: relative; }
+	#newspecial { position: absolute; top: 0; right: 0; overflow: hidden; text-indent: -9999px; width: 100px; height: 35px; background: url({STYLEIMGDIR}/pn_post1.png) no-repeat 0 0; }
+	#newspecial:active { background-position: 0 -35px; }
+.pg_forumdisplay #newspecial { position: relative; float: right; margin-top: 0; }
+/** end **/
+
+/** group::viewthread,forum::viewthread **/
+
+.wxd_viewtop {height:40px; color:#333; overflow:hidden; background:url({STYLEIMGDIR}/viewtopbg.png) repeat-x;}
+.wxd_viewtop .pipe, .wxd_viewtop .ts, .wxd_viewtop .ts a, .wxd_viewtop a{ color:#333;}
+.wxd_viewtop .pls, #postlist .wxd_viewtop .plc { background:none;}
+.wxd_viewtop .pls {border-right:0px solid {WRAPBORDERCOLOR}}
+
+/** end **/
+
